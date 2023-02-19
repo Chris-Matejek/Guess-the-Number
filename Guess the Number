@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.mavenproject1;
+
+/**
+ *
+ * @author Paul
+ */
+public class GuessNum {
+    public static void main(String[] args){
+        int answer, guess = 0;
+        final int MAX = 1000;
+        Random rand = new Random();
+        answer = rand.nextInt(MAX) +1;
+        System.out.println("Guess a number between 1 and 1000");
+        
+        if(guess == answer ){
+          System.out.println("Answer is correct");  
+          if(guess > answer ){
+          System.out.println("Answer is to high");  
+           if(guess < answer ){
+          System.out.println("Answer is to low");  
+          
+        }
+    }
+    
+}
+    }
+}
